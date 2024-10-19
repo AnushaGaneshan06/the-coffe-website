@@ -1,0 +1,263 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+
+}
+
+header {
+    background-color: rgb(74, 12, 26);
+
+}
+
+button {
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: none;
+
+}
+
+button:hover {
+    background-color: brown;
+    color: white;
+    font-size: 15px;
+}
+
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.nav-bar ul a {
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 30px;
+    color: white;
+}
+
+.nav-bar ul a:hover {
+    background-color: rgba(220, 61, 61, 0.651);
+    border: 1px solid brown;
+    border-radius: 50px;
+    font-size: 15px;
+
+}
+
+/* -------------------main-section----------- */
+.hero-main-section {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-section {
+    padding: 30px;
+    margin-left: 20px;
+}
+
+.main-section h1 {
+    font-style: italic;
+    color: burlywood;
+}
+
+.main-section h2 {
+    margin-top: 10px;
+    font-size: 30px;
+
+}
+
+.main-section p {
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.hero-button {
+    margin: 10px;
+    margin-left: 10px;
+}
+
+
+/* ----------------ABOUT-SECTION----------------- */
+#about-section-main {
+    background-color: hsla(0, 0%, 13%, 1);
+    width: 100%;
+    height: 100vh;
+}
+
+.about-section {
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+
+}
+
+.about-img img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.about-content {
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon ul {
+    display: flex;
+    margin-left: 25%;
+}
+
+.icon ul li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+
+
+}
+
+/* --------------------menu-section--------------- */
+.menu-hero-section {
+    background-color: rgb(90, 88, 88);
+    height: auto;
+}
+
+.menu-title {
+    text-align: center;
+}
+
+.menu-section {
+    margin: 0;
+    padding: 5px;
+
+}
+
+.menu-list ul {
+
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 70px;
+
+}
+
+.menu-list ul li {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.li-content {
+    padding: 30px;
+}
+
+/* ----------------testimonial------------ */
+.title-testi {
+    text-align: center;
+
+}
+
+.container {
+    padding: 10px 25px;
+    margin: auto;
+}
+
+.testimonial-slider {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow-x: auto;
+    padding: 10px 0;
+}
+
+.testimonial-items {
+    padding: 20px;
+    text-align: center;
+}
+
+.text-box {
+    padding: 20px;
+
+}
+
+
+/* -------------------gallery */
+.photos-section {
+    background-color: rgba(0, 0, 0, 0.874);
+    margin: 0;
+    padding: 20px;
+}
+
+.gallery-head {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.grid-image img {
+    border-radius: 30px;
+    padding: 20px;
+    transition: transform 0.3s ease-out;
+}
+
+.grid-image img:hover {
+    transform: scale(1.1);
+}
+
+.grid-format {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* ---------------frm */
+
+.contact-form {
+    background-color: rgb(27, 26, 26);
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.contact-section {
+    margin-top: 30px;
+}
+
+.contact-section h2 {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    padding: 80px;
+}
+
+.footer-foot {
+    background-color: rgb(75, 27, 27);
+    padding: 1px;
+    text-align: center;
+}
